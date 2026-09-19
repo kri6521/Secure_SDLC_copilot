@@ -82,7 +82,7 @@ The prototype has explicit gates for:
 
 A failed gate changes the workflow to `BLOCKED`. The release simulator refuses deployment unless all gates pass and a human approval flag is present.
 
-## Important assessment talking points
+## Important points
 
 1. **Human-in-the-loop:** code merge/release remains a human-controlled action.
 2. **Least privilege:** each agent has a declared tool permission set.
