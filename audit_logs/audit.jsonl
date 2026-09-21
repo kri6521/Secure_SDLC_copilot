@@ -10,3 +10,8 @@
 {"timestamp": "2026-09-19T12:50:34.309418+00:00", "stage": "development", "actor": "developer-agent", "action": "generate_code", "result": "BLOCKED", "evidence": {"secret_hits": 1}}
 {"timestamp": "2026-09-19T12:51:10.875767+00:00", "stage": "code_review", "actor": "code-review-agent", "action": "review", "result": "PASS", "evidence": {}}
 {"timestamp": "2026-09-19T12:52:36.593190+00:00", "stage": "security_gate", "actor": "gatekeeper", "action": "evaluate", "result": "BLOCKED", "evidence": {"failures": ["Possible hardcoded secret detected."]}}
+{"timestamp": "2026-09-21T04:28:20.356059+00:00", "stage": "requirement", "actor": "requirement-agent", "action": "analyze", "result": "PASS", "evidence": {}}
+{"timestamp": "2026-09-21T04:28:27.290273+00:00", "stage": "planning", "actor": "planning-agent", "action": "plan", "result": "PASS", "evidence": {}}
+{"timestamp": "2026-09-21T04:28:34.311378+00:00", "stage": "development", "actor": "developer-agent", "action": "generate_code", "result": "BLOCKED", "evidence": {"secret_hits": 1}}
+{"timestamp": "2026-09-21T04:29:24.520663+00:00", "stage": "code_review", "actor": "code-review-agent", "action": "review", "result": "PASS", "evidence": {}}
+{"timestamp": "2026-09-21T04:30:38.510034+00:00", "stage": "security_gate", "actor": "gatekeeper", "action": "evaluate", "result": "BLOCKED", "evidence": {"failures": ["Possible hardcoded secret detected."]}}
